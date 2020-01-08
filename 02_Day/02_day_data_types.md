@@ -4,7 +4,7 @@
 [<< Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md) | [Day 3 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/03_Day/03_booleans_operators_date.md)
 --
 
-![Thirty Days Of JavaScript](./day_1_2.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
 
 - [📔 Day 2](#%f0%9f%93%94-day-2)
   - [Data types](#data-types)
@@ -762,7 +762,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
   **Example:**
 
 ```js
-// Different python data types
+// Different javascript data types
 // Let's declare different data types
 
 let firstName = 'Asabeneh'      // string
@@ -862,7 +862,7 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  You are awesome. You have just completed day 2 challenge and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  You are awesome. You have just completed day 2 challenges and you are two steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.  
 
 # 💻 Day 2: Exercises
 

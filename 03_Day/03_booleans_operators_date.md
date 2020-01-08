@@ -3,7 +3,7 @@
 [<< Day 2](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/02_Day/02_day_data_types.md) | [Day 4 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
 --
 
-![Thirty Days Of JavaScript](./day_1_3.png)
+![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
 - [📔 Day 3](#%f0%9f%93%94-day-3)
   - [Booleans](#booleans)
@@ -481,7 +481,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕 You have boundless energy. You have just completed day 3 challenge and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 # 💻 Day 3: Exercises
 

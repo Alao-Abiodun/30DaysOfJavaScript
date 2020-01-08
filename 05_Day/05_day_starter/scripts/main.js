@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const countries = [
     'Albania',
     'Bolivia',
@@ -49,3 +50,8 @@ console.log(`${companies} are big IT companies`);
 console.log(companies.slice(0,3));
 let lastIndex = companies.length - 1;
 console.log(companies.slice(4,2));
+=======
+console.log(countries)
+alert('Open the browser console whenever you work on JavaScript')
+alert('Open the console and check if the countries has been loaded')
+>>>>>>> 3d62a9eea152a9c85d836c60548f735bc69d62d1
