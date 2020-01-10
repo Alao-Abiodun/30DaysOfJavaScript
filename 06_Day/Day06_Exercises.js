@@ -1,28 +1,28 @@
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ]
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
   
-  const webTechs = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB'
-  ]
+//   const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
   
-  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+//   const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
   // Exercise No1 solution
 //   for (let i =0; i <=10; i++) {
@@ -163,17 +163,17 @@ const countries = [
 //     console.log(largestNumberCharacter);
 
 // Exercise No31 solution
-const fullstack = [
-    ['HTML', 'CSS', 'JS', 'React'],
-    ['Node', 'Express', 'MongoDB']
-]
+// const fullstack = [
+//     ['HTML', 'CSS', 'JS', 'React'],
+//     ['Node', 'Express', 'MongoDB']
+// ]
 
-for (let i =0; i < fullstack.length; i++){
-    for (let j = 0; j < i; j++){
-        console.log(fullstack[j]);
-    }
-    console.log(fullstack[i]);
-}
+// for (let i =0; i < fullstack.length; i++){
+//     for (let j = 0; j < i; j++){
+//         console.log(fullstack[j]);
+//     }
+//     console.log(fullstack[i]);
+// }
 
 // Exercise No32 solution
 // let newArray = [];
