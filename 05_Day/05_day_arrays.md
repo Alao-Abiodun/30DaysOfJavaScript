@@ -1,10 +1,26 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
 
 [<< Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md) | [Day 6 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
---
+
 ![Day 5](../images/banners/day_1_5.png)
 
-- [📔 Day 5](#%f0%9f%93%94-day-5)
+- [📔 Day 5](#-day-5)
   - [Arrays](#arrays)
     - [How to create an empty array](#how-to-create-an-empty-array)
     - [How to create an array with values](#how-to-create-an-array-with-values)
@@ -30,7 +46,7 @@
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#%f0%9f%92%bb-exercise)
+  - [💻 Exercise](#-exercise)
 
 # 📔 Day 5
 
@@ -43,6 +59,7 @@ An array is a collection of different data types which are ordered and changeabl
 ### How to create an empty array
 
 In JavaScript, we can create an array in different ways. Let us different ways to create an array.
+It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that name again.
 
 - Using Array constructor
 

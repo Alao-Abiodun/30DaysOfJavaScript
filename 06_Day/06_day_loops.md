@@ -1,7 +1,22 @@
-## Table of Contents
+<div align="center">
+  <h1> 30 Days Of JavaScript</h1>
+  <a class="header-badge" target="_blank" href="https://github.com/Asabeneh/30DaysOfJavaScript">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/asabeneh/30DaysOfJavaScript?style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> January, 2020</small>
+  </sub>
+</div>
 
 [<< Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md) | [Day 7 >>](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
---
 
 ![Day 5](../images/banners/day_1_6.png)
 
@@ -13,7 +28,7 @@
     - [for of loop](#for-of-loop)
     - [break](#break)
     - [continue](#continue)
-  - [💻 Exercises:Day 6](#%f0%9f%92%bb-exercisesday-6)
+  - [💻 Exercises:Day 6](#-exercisesday-6)
 
 # 📔 Day 6
 
