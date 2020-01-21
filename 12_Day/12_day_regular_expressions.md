@@ -454,29 +454,29 @@ distance = 12
     ```
 
     ```sh
-        [(6, 'love'),
-        (5, 'you'),
-        (3, 'can'),
-        (2, 'what'),
-        (2, 'teaching'),
-        (2, 'not'),
-        (2, 'else'),
-        (2, 'do'),
-        (2, 'I'),
-        (1, 'which'),
-        (1, 'to'),
-        (1, 'the'),
-        (1, 'something'),
-        (1, 'if'),
-        (1, 'give'),
-        (1, 'develop'),
-        (1, 'capabilities'),
-        (1, 'application'),
-        (1, 'an'),
-        (1, 'all'),
-        (1, 'Python'),
-        (1, 'If')
-        ]
+        [
+        {word:'love', count:6},
+        {word:'you', count:5},
+        {word:'can', count:3},
+        {word:'what', count:2},
+        {word:'teaching', count:2},
+        {word:'not', count:2},
+        {word:'else', count:2},
+        {word:'do', count:2},
+        {word:'I', count:2},
+        {word:'which', count:1},
+        {word:'to', count:1},
+        {word:'the', count:1},
+        {word:'something', count:1},
+        {word:'if', count:1},
+        {word:'give', count:1},
+        {word:'develop',count:1},
+        {word:'capabilities',count:1},
+        {word:'application', count:1},
+        {word:'an',count:1},
+        {word:'all',count:1},
+        {word:'Python',count:1},
+        {word:'If',count:1}]
     ```
 
     ```js
@@ -484,16 +484,16 @@ distance = 12
     ```
 
     ```sh
-    [   (6, 'love'),
-        (5, 'you'),
-        (3, 'can'),
-        (2, 'what'),
-        (2, 'teaching'),
-        (2, 'not'),
-        (2, 'else'),
-        (2, 'do'),
-        (2, 'I'),
-        (1, 'which')
+   [{word:'love', count:6},
+    {word:'you', count:5},
+    {word:'can', count:3},
+    {word:'what', count:2},
+    {word:'teaching', count:2},
+    {word:'not', count:2},
+    {word:'else', count:2},
+    {word:'do', count:2},
+    {word:'I', count:2},
+    {word:'which', count:1}
     ]
     ```
 
@@ -514,7 +514,7 @@ distance = 12
 
     ```js
     console.log(mostFrequentWords(cleanedText))
-    [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
+    [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
     ```
 
 
