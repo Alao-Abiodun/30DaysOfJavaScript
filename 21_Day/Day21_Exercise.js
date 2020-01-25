@@ -87,7 +87,7 @@ const createDateTimeYearFormat = () => {
         break;
        case 7:
         month = 'July';
-        break   
+        break;
    }
    const day = now.getUTCDate();
    const year = now.getFullYear();
