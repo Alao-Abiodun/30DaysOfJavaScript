@@ -1,0 +1,90 @@
+body {
+    background-color:#FFFFFF;
+}
+
+header {
+    background: hsl(202, 100%, 50%);
+    width: 100%;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.about-me {
+    line-height:24px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-skills {
+    display:block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+output {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#technology-tools {
+    position:relative;
+    top:0;
+    color: #FF7CCD;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    0% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 50px;
+        opacity: 0.1;
+    }
+}
+
+.clearfix {
+    clear: both;
+    margin-top:30px;
+}
+
+strong {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.container {
+    border: 1px solid #F3F3F3;
+    width:50px;
+    height:25px;
+    margin-right: 80px;
+    margin-left: 80px;
+    float: left;
+    background: #F2F2F2;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 60px;
+}
+
+.container:hover {
+    transform: scale(1.2);
+    background: hsl(202, 100%, 50%);
+    opacity: 0.5;
+}
+
+#one {
+    display: inline;
+}
+
+#two {
+    display: inline;
+}
+
+#three {
+    display: inline;
+}
