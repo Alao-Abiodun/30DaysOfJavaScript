@@ -1,0 +1,60 @@
+h3 {
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#team {
+    text-align: center;
+}
+
+.input {
+    padding:10px;
+    border: 1px solid #FDA7DF; 
+    opacity: 0.8;  
+}
+
+#add-player {
+    border: 0;
+    padding:12px;
+    width: 180px;
+    background-color:#FDA7DF;
+    opacity: 0.8;
+}
+
+.box-container {
+    background-color: #DEF455;
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+#box-item1 {
+    display: flex;
+    background: red;
+    width: 230px;
+    height: 50px;
+    padding: 30px;
+}
+
+#box-item2 {
+    display: flex;
+    background: green;
+    width: 230px;
+    height: 50px;
+    padding: 30px;
+
+}
+
+#box-item3 {
+    display: flex;
+    background: blue;
+    width: 230px;
+    height: 50px;
+    padding: 30px;
+}
+
+#box-item1 .player-date {
+    display: inline;
+}
