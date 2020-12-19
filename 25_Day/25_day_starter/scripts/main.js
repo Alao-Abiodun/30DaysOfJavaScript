@@ -3,7 +3,7 @@ let feedbackParagraph = document.querySelector('.feedback');
 
 feedbackParagraph.textContent = `Currently, we have ${countries.length} countries`;
 feedbackParagraph.style.textAlign = 'center';
-feedbackParagraph.style.fontSize = '20px'
+feedbackParagraph.style.fontSize = '20px';
 feedbackParagraph.style.color = 'gray';
 feedbackParagraph.style.fontFamily = 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif'
 
@@ -34,37 +34,71 @@ const showButtonContentGraph = () => {
     let btnPopulation = document.querySelector('.population');
     let btnLanguage = document.querySelector('.languages');
     let graphTitle = document.querySelector('.graph-title');
-    let graphWrapper = document.querySelector('.graph-wrapper');
-    let graphStatistics = document.querySelector('#stat');
-    
+    let graph = document.querySelector('.graphs');
+    graph.style.textAlign = 'center';
+    let countryNames = document.querySelector('#countryNames');
+    countryNames.style.width = '100px';
+    countryNames.style.height = '40px';
+    countryNames.style.display = 'inline-block';
+    countryNames.style.padding = '50px'
+    let barGraph = document.querySelector('#barGraph');
+    barGraph.style.width = '100px';
+    barGraph.style.height = '40px';
+    barGraph.style.display = 'inline-block';
+    barGraph.style.padding = '50px'
+    let populations = document.querySelector('#populations');
+    populations.style.width = '100px';
+    populations.style.height = '40px';
+    populations.style.display = 'inline-block';
+    populations.style.padding = '50px'
 
-    // countries.forEach(country => {
-    //     graphWrapper.textContent = `${counry.}`
-    // });
-
-    console.log(countries)
-    // graphStatistics.style.width = `${countries.length}`
-
-    // graphStatistics.textContent = `${countries}     
-    // ${graphStatistics.style.border} = '1px solid orange',
-   
-    // ${graphStatistics.style.height} = '30px'
-    // ${graphStatistics.style.backgroundColor} = 'orange';
-    // ${graphStatistics.style.margin} = '0 auto';
-    // `
-
-
-
+    const mostTenPopulatedCountries = (arr, n) => {
+        const counts = [];
+        let sortedByPopulation;
+        for (const { name, population } of countries) {
+            counts.push({ country: name, population: population });
+        }
+        sortedByPopulation = counts.sort((b, a) => a.population - b.population);
+        return sortedByPopulation.slice(0, n);
+    }
 
     btnPopulation.addEventListener('click', (e) => {
         graphTitle.textContent = '10 Most populated countries in the world';
         graphTitle.style.textAlign = 'center';
+
+        const tenCountry = mostTenPopulatedCountries(countries, 10)
+
+        const maxPopulation = tenCountry[0].population;
+
+        for (let i = 0; i < 10; i++) {
+
+            let p1 = document.createElement('p');
+            p1.setAttribute('id', 'country-' + i);
+            p1.innerHTML = tenCountry[i].country;
+            document.getElementById('countryNames').appendChild(p1);
+
+            let div = document.createElement('div');
+            div.setAttribute('id', 'bar-' + i);
+            div.style.height = '50px';
+            div.style.width = (tenCountry[i].population / maxPopulation * 100) + '%';
+            div.style.backgroundColor = 'orange';
+            div.style.padding = '20px';
+            // div.style.display = 'inline-block';
+            div.style.marginBottom = '10px';
+
+            document.getElementById('barGraph').appendChild(div);
+
+            let p2 = document.createElement('p');
+            p2.setAttribute('id', 'population-' + i);
+            p2.innerHTML = tenCountry[i].population;
+            document.getElementById('populations').appendChild(p2);
+        }
     })
 
     btnLanguage.addEventListener('click', (e) => {
         graphTitle.textContent = '10 Most Spoken languges in the world'
         graphTitle.style.textAlign = 'center'
-})
+    })
 }
 
 showButtonContentGraph();

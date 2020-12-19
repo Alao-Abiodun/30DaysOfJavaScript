@@ -1,0 +1,19 @@
+{
+  "name": "30daysofjavascript",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <h1> 30 Days Of JavaScript</h1>\r   <a class=\"header-badge\" target=\"_blank\" href=\"https://www.linkedin.com/in/asabeneh/\">\r   <img src=\"https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social\">\r   </a>\r   <a class=\"header-badge\" target=\"_blank\" href=\"https://twitter.com/Asabeneh\">\r   <img alt=\"Twitter Follow\" src=\"https://img.shields.io/twitter/follow/asabeneh?style=social\">\r   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alao-Abiodun/30DaysOfJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alao-Abiodun/30DaysOfJavaScript/issues"
+  },
+  "homepage": "https://github.com/Alao-Abiodun/30DaysOfJavaScript#readme"
+}

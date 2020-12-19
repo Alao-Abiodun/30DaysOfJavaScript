@@ -10,15 +10,15 @@ headingThree.style.textDecoration = 'underline';
 
 const NumberGenerator = () => {
   let classWrapper = document.querySelector('.wrapper');
-  for (let i = 0; i <= 101; i++){
+  for (let i = 0; i <= 101; i++) {
     const smallDiv = document.createElement('div');
     smallDiv.textContent = i;
-    if(smallDiv.textContent % 2 === 0){
+    if (smallDiv.textContent % 2 === 0) {
       smallDiv.style.backgroundColor = 'green';
-    } else if(smallDiv.textContent % 2 === 1) {
+    } else if (smallDiv.textContent % 2 === 1) {
       smallDiv.style.backgroundColor = 'yellow';
     } else {
-      for (let i = 100; i < smallDiv.textContent; i++){
+      for (let i = 100; i < smallDiv.textContent; i++) {
         if (smallDiv.textContent % i !== 0) {
           smallDiv.style.backgroundColor = 'red';
         }

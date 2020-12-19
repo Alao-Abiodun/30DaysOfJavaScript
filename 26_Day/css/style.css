@@ -1,8 +1,13 @@
 body {
-    background: url('../26_day_starter/images/globe-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('../26_day_starter/images/globe-2.jpg') no-repeat center center/cover;
+    text-align: center;
+    height: 5px;
+}
+
+i {
+    color: #ffffff;
+    padding: 10px;
+    opacity: 0.7;
 }
 
 

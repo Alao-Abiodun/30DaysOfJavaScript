@@ -212,6 +212,11 @@ The clear method, will clear everything stored in the local storage
 localStorage.clear()
 ```
 
+```
+                                    
+Evening section:
+```
+
 🌕 You are determined .Now, you knew a Web Storages and you knew how to store small data on client browsers. You are 17 steps a head to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises

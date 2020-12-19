@@ -31,18 +31,18 @@ wrapper.appendChild(innerkeyCodeWrapper);
 
 const createKeyCodeWrapper = () => {
     document.body.addEventListener('keypress', e => {
-       if (true) {
-           let p = document.createElement('p');
-           p.textContent = e.key;
-           p.style.color = 'lighgreen';
-           p.style.display = 'inline-block'
-           innerWrapper.appendChild(p);
-           innerWrapper.textContent = 'you pressed' + p;
-           innerkeyCodeWrapper.style.color = 'lightgreen';
-           innerkeyCodeWrapper.textContent  = `${e.keyCode}`;
-           innerkeyCodeWrapper.style.visibility = 'visible';
-          console.log(e);
-       }
+        if (true) {
+            let p = document.createElement('p');
+            p.textContent = e.key;
+            p.style.color = 'lighgreen';
+            p.style.display = 'inline-block'
+            innerWrapper.appendChild(p);
+            innerWrapper.textContent = 'you pressed' + p;
+            innerkeyCodeWrapper.style.color = 'lightgreen';
+            innerkeyCodeWrapper.textContent = `${e.keyCode}`;
+            innerkeyCodeWrapper.style.visibility = 'visible';
+            console.log(e);
+        }
     })
 }
 
