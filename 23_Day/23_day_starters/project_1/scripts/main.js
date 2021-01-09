@@ -21,48 +21,78 @@ linkButton.style.textDecoration = 'none';
 linkButton.style.backgroundColor = 'green';
 linkButton.style.opacity = '0.7';
 linkButton.style.padding = '12px';
-linkButton.style.marginLeft = '10px'
+linkButton.style.marginLeft = '10px';
 linkButton.style.color = 'white';
 linkButton.style.width = '100px';
 linkButton.style.height = '35px';
 
-const NumberGeneratorBasedOnInput = () => {
-    const msgWrapper = document.querySelector('.msg');
-    msgWrapper.style.color = 'red';
-    msgWrapper.style.fontSize = '17px'
-    msgWrapper.style.marginRight = '320px';
-    msgWrapper.style.marginBottom = '10px';
-    // msgWrapper.style.display = 'inline-block';
-    linkButton.addEventListener('click', e => {
-        if (numberInput.value === '') {
-            msgWrapper.textContent = 'Enter the number into the input fields to generate numbers';
-        } else if (isNaN(numberInput.value)) {
-            msgWrapper.textContent = 'The number entered into this input field must be a number';
-        } else {
-            for (let i = 0; i <= numberInput.value; i++) {
-                const smallDiv = document.createElement('div');
-                msgWrapper.textContent = '';
-                smallDiv.textContent = i;
-                if (smallDiv.textContent % 2 === 0) {
-                    smallDiv.style.backgroundColor = 'green';
-                } else if (smallDiv.textContent % 2 === 1) {
-                    smallDiv.style.backgroundColor = 'yellow';
-                } else {
-                    for (let i = 100; i < smallDiv.textContent; i++) {
-                        if (smallDiv.textContent % i !== 0) {
-                            smallDiv.style.backgroundColor = 'red';
-                        }
-                    }
-                }
-                smallDiv.style.width = '50px';
-                smallDiv.style.display = 'inline-block';
-                smallDiv.style.border = '2px solid black';
-                smallDiv.style.margin = '3px';
-                smallDiv.style.padding = '80px';
-                bigDiv.appendChild(smallDiv);
-            }
-        }
-    });
-}
+let generateRandomNumber = () => {
+  linkButton.addEventListener('click', e => {
+    let num = [];
+    let number = numberInput.value;
+    for (i = 0; i <= number; i++) {
+      num.push(i);
+    }
+    return num;
+  });
+};
 
-NumberGeneratorBasedOnInput();
+let primeNumbers = num => {
+  if (num % 2 == 0 || num % 2 == 1) {
+    return false;
+  } else {
+    for (x = 2; x < num; x++) {
+      if (num % x === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+};
+
+let createTable = numOfRows => {
+  var data = generateRandomNumber();
+
+  let count = 0;
+
+  let table = document.createElement('table');
+  let row = table.insertRow();
+
+  table.setAttribute('id', 'tableNumber');
+  table.setAttribute('align', 'center');
+
+  for (var i of data) {
+    var cell = row.insertCell();
+    if (i % 2 === 0) {
+      cell.innerHTML = i;
+      cell.setAttribute('style', 'background-color: green; font-size: 40px');
+      cell.classList = 'tabledata even';
+    } else {
+      cell.innerHTML = i;
+      cell.setAttribute('style', 'background-color: yellow; font-size: 40px');
+      cell.classList = 'tabledata odd';
+    }
+    if (primeNumbers(i) === true) {
+      cell.innerHTML = i;
+      cell.setAttribute('style', 'background-color: red; font-size: 40px');
+      cell.classList = 'tabledata prime';
+    }
+
+    count++;
+    if (count % numOfRows === 0) {
+      row = table.insertRow();
+    }
+  }
+
+  bigDiv.appendChild(table);
+
+  let tdStyle = document.querySelectorAll('.tabledata');
+  for (item of tdStyle) {
+    item.style.padding = '0.5em';
+    item.style.width = '100px';
+    item.style.border = '0.5px solid black';
+    item.style.textAlign = 'center';
+    item.style.fontSize = '25px';
+  }
+};
+createTable(6);

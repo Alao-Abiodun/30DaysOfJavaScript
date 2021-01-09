@@ -1,6 +1,3 @@
-const divOne = document.querySelector('.div-one');
-const details = document.querySelector('details');
-divOne.style.width = '300px';
-divOne.style.height = '70px';
-divOne.style.backgroundColor = 'green';
-divOne.style.padding = '20px';
+let projectDetails = asabenehChallenges2020;
+let headingOne = document.createElement('h1');
+headingOne.textContent = `${projectDetails.challengeTitle} in ${projectDetails.challengeYear}`;

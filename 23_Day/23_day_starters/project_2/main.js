@@ -11,13 +11,13 @@ innerWrapper.style.height = '30px';
 innerWrapper.style.textAlign = 'center';
 innerWrapper.style.paddingTop = '15px';
 innerWrapper.style.paddingBottom = '20px';
-innerWrapper.style.marginLeft = 'auto'
+innerWrapper.style.marginLeft = 'auto';
 innerWrapper.style.boxShadow = '2px 2px 1px #888888';
 innerWrapper.style.marginRight = 'auto';
-innerWrapper.style.marginTop = '150px'
+innerWrapper.style.marginTop = '150px';
 
 let keyCodeWrapper = document.createElement('div');
-keyCodeWrapper.textContent = 'KeyCode'
+keyCodeWrapper.textContent = 'KeyCode';
 keyCodeWrapper.style.backgroundColor = 'white';
 keyCodeWrapper.style.width = '140px';
 keyCodeWrapper.style.fontSize = '24px';
@@ -36,22 +36,20 @@ keyCodeWrapper.style.visibility = 'hidden';
 wrapper.appendChild(keyCodeWrapper);
 
 const keyCodeCreator = () => {
-    document.body.addEventListener('keypress', e => {
-        if (true) {
-            let p = document.createElement('p');
-            p.textContent = e.key;
-            p.style.display = 'inline-block';
-            p.style.color = 'lightgreen';
-            console.log(p);
-            innerWrapper.appendChild(p);
-            innerWrapper.textContent = 'you pressed ' + p.textContent
-            keyCodeWrapper.textContent = `${e.keyCode}`;
-            keyCodeWrapper.style.visibility = 'visible';
-            console.log(e);
-        }
-    })
-}
+  document.body.addEventListener('keypress', e => {
+    if (true) {
+      let p = document.createElement('p');
+      p.textContent = e.key;
+      p.style.display = 'inline-block';
+      p.style.color = 'lightgreen';
+      console.log(p);
+      innerWrapper.appendChild(p);
+      innerWrapper.textContent = 'you pressed ' + p.textContent;
+      keyCodeWrapper.textContent = `${e.keyCode}`;
+      keyCodeWrapper.style.visibility = 'visible';
+      console.log(e);
+    }
+  });
+};
 
 keyCodeCreator();
-
-
