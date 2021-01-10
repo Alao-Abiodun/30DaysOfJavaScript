@@ -5,7 +5,7 @@ const countries = [
     languages: ['Pashto', 'Uzbek', 'Turkmen'],
     population: 27657145,
     flag: 'https://restcountries.eu/data/afg.svg',
-    currency: 'Afghan afghani'
+    currency: 'Afghan afghani',
   },
   {
     name: 'Åland Islands',
@@ -13,7 +13,7 @@ const countries = [
     languages: ['Swedish'],
     population: 28875,
     flag: 'https://restcountries.eu/data/ala.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Albania',
@@ -21,7 +21,7 @@ const countries = [
     languages: ['Albanian'],
     population: 2886026,
     flag: 'https://restcountries.eu/data/alb.svg',
-    currency: 'Albanian lek'
+    currency: 'Albanian lek',
   },
   {
     name: 'Algeria',
@@ -29,7 +29,7 @@ const countries = [
     languages: ['Arabic'],
     population: 40400000,
     flag: 'https://restcountries.eu/data/dza.svg',
-    currency: 'Algerian dinar'
+    currency: 'Algerian dinar',
   },
   {
     name: 'American Samoa',
@@ -37,7 +37,7 @@ const countries = [
     languages: ['English', 'Samoan'],
     population: 57100,
     flag: 'https://restcountries.eu/data/asm.svg',
-    currency: 'United State Dollar'
+    currency: 'United State Dollar',
   },
   {
     name: 'Andorra',
@@ -45,7 +45,7 @@ const countries = [
     languages: ['Catalan'],
     population: 78014,
     flag: 'https://restcountries.eu/data/and.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Angola',
@@ -53,7 +53,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 25868000,
     flag: 'https://restcountries.eu/data/ago.svg',
-    currency: 'Angolan kwanza'
+    currency: 'Angolan kwanza',
   },
   {
     name: 'Anguilla',
@@ -61,7 +61,7 @@ const countries = [
     languages: ['English'],
     population: 13452,
     flag: 'https://restcountries.eu/data/aia.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Antarctica',
@@ -69,7 +69,7 @@ const countries = [
     languages: ['English', 'Russian'],
     population: 1000,
     flag: 'https://restcountries.eu/data/ata.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Antigua and Barbuda',
@@ -77,7 +77,7 @@ const countries = [
     languages: ['English'],
     population: 86295,
     flag: 'https://restcountries.eu/data/atg.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Argentina',
@@ -85,7 +85,7 @@ const countries = [
     languages: ['Spanish', 'Guaraní'],
     population: 43590400,
     flag: 'https://restcountries.eu/data/arg.svg',
-    currency: 'Argentine peso'
+    currency: 'Argentine peso',
   },
   {
     name: 'Armenia',
@@ -93,7 +93,7 @@ const countries = [
     languages: ['Armenian', 'Russian'],
     population: 2994400,
     flag: 'https://restcountries.eu/data/arm.svg',
-    currency: 'Armenian dram'
+    currency: 'Armenian dram',
   },
   {
     name: 'Aruba',
@@ -101,7 +101,7 @@ const countries = [
     languages: ['Dutch', '(Eastern) Punjabi'],
     population: 107394,
     flag: 'https://restcountries.eu/data/abw.svg',
-    currency: 'Aruban florin'
+    currency: 'Aruban florin',
   },
   {
     name: 'Australia',
@@ -109,7 +109,7 @@ const countries = [
     languages: ['English'],
     population: 24117360,
     flag: 'https://restcountries.eu/data/aus.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Austria',
@@ -117,7 +117,7 @@ const countries = [
     languages: ['German'],
     population: 8725931,
     flag: 'https://restcountries.eu/data/aut.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Azerbaijan',
@@ -125,7 +125,7 @@ const countries = [
     languages: ['Azerbaijani'],
     population: 9730500,
     flag: 'https://restcountries.eu/data/aze.svg',
-    currency: 'Azerbaijani manat'
+    currency: 'Azerbaijani manat',
   },
   {
     name: 'Bahamas',
@@ -133,7 +133,7 @@ const countries = [
     languages: ['English'],
     population: 378040,
     flag: 'https://restcountries.eu/data/bhs.svg',
-    currency: 'Bahamian dollar'
+    currency: 'Bahamian dollar',
   },
   {
     name: 'Bahrain',
@@ -141,7 +141,7 @@ const countries = [
     languages: ['Arabic'],
     population: 1404900,
     flag: 'https://restcountries.eu/data/bhr.svg',
-    currency: 'Bahraini dinar'
+    currency: 'Bahraini dinar',
   },
   {
     name: 'Bangladesh',
@@ -149,7 +149,7 @@ const countries = [
     languages: ['Bengali'],
     population: 161006790,
     flag: 'https://restcountries.eu/data/bgd.svg',
-    currency: 'Bangladeshi taka'
+    currency: 'Bangladeshi taka',
   },
   {
     name: 'Barbados',
@@ -157,7 +157,7 @@ const countries = [
     languages: ['English'],
     population: 285000,
     flag: 'https://restcountries.eu/data/brb.svg',
-    currency: 'Barbadian dollar'
+    currency: 'Barbadian dollar',
   },
   {
     name: 'Belarus',
@@ -165,7 +165,7 @@ const countries = [
     languages: ['Belarusian', 'Russian'],
     population: 9498700,
     flag: 'https://restcountries.eu/data/blr.svg',
-    currency: 'New Belarusian ruble'
+    currency: 'New Belarusian ruble',
   },
   {
     name: 'Belgium',
@@ -173,7 +173,7 @@ const countries = [
     languages: ['Dutch', 'French', 'German'],
     population: 11319511,
     flag: 'https://restcountries.eu/data/bel.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Belize',
@@ -181,7 +181,7 @@ const countries = [
     languages: ['English', 'Spanish'],
     population: 370300,
     flag: 'https://restcountries.eu/data/blz.svg',
-    currency: 'Belize dollar'
+    currency: 'Belize dollar',
   },
   {
     name: 'Benin',
@@ -189,7 +189,7 @@ const countries = [
     languages: ['French'],
     population: 10653654,
     flag: 'https://restcountries.eu/data/ben.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Bermuda',
@@ -197,7 +197,7 @@ const countries = [
     languages: ['English'],
     population: 61954,
     flag: 'https://restcountries.eu/data/bmu.svg',
-    currency: 'Bermudian dollar'
+    currency: 'Bermudian dollar',
   },
   {
     name: 'Bhutan',
@@ -205,7 +205,7 @@ const countries = [
     languages: ['Dzongkha'],
     population: 775620,
     flag: 'https://restcountries.eu/data/btn.svg',
-    currency: 'Bhutanese ngultrum'
+    currency: 'Bhutanese ngultrum',
   },
   {
     name: 'Bolivia (Plurinational State of)',
@@ -213,7 +213,7 @@ const countries = [
     languages: ['Spanish', 'Aymara', 'Quechua'],
     population: 10985059,
     flag: 'https://restcountries.eu/data/bol.svg',
-    currency: 'Bolivian boliviano'
+    currency: 'Bolivian boliviano',
   },
   {
     name: 'Bonaire, Sint Eustatius and Saba',
@@ -221,7 +221,7 @@ const countries = [
     languages: ['Dutch'],
     population: 17408,
     flag: 'https://restcountries.eu/data/bes.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Bosnia and Herzegovina',
@@ -229,7 +229,7 @@ const countries = [
     languages: ['Bosnian', 'Croatian', 'Serbian'],
     population: 3531159,
     flag: 'https://restcountries.eu/data/bih.svg',
-    currency: 'Bosnia and Herzegovina convertible mark'
+    currency: 'Bosnia and Herzegovina convertible mark',
   },
   {
     name: 'Botswana',
@@ -237,7 +237,7 @@ const countries = [
     languages: ['English', 'Tswana'],
     population: 2141206,
     flag: 'https://restcountries.eu/data/bwa.svg',
-    currency: 'Botswana pula'
+    currency: 'Botswana pula',
   },
   {
     name: 'Bouvet Island',
@@ -245,7 +245,7 @@ const countries = [
     languages: ['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk'],
     population: 0,
     flag: 'https://restcountries.eu/data/bvt.svg',
-    currency: 'Norwegian krone'
+    currency: 'Norwegian krone',
   },
   {
     name: 'Brazil',
@@ -253,7 +253,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 206135893,
     flag: 'https://restcountries.eu/data/bra.svg',
-    currency: 'Brazilian real'
+    currency: 'Brazilian real',
   },
   {
     name: 'British Indian Ocean Territory',
@@ -261,7 +261,7 @@ const countries = [
     languages: ['English'],
     population: 3000,
     flag: 'https://restcountries.eu/data/iot.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'United States Minor Outlying Islands',
@@ -269,7 +269,7 @@ const countries = [
     languages: ['English'],
     population: 300,
     flag: 'https://restcountries.eu/data/umi.svg',
-    currency: 'United States Dollar'
+    currency: 'United States Dollar',
   },
   {
     name: 'Virgin Islands (British)',
@@ -277,7 +277,7 @@ const countries = [
     languages: ['English'],
     population: 28514,
     flag: 'https://restcountries.eu/data/vgb.svg',
-    currency: '[D]'
+    currency: '[D]',
   },
   {
     name: 'Virgin Islands (U.S.)',
@@ -285,7 +285,7 @@ const countries = [
     languages: ['English'],
     population: 114743,
     flag: 'https://restcountries.eu/data/vir.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Brunei Darussalam',
@@ -293,7 +293,7 @@ const countries = [
     languages: ['Malay'],
     population: 411900,
     flag: 'https://restcountries.eu/data/brn.svg',
-    currency: 'Brunei dollar'
+    currency: 'Brunei dollar',
   },
   {
     name: 'Bulgaria',
@@ -301,7 +301,7 @@ const countries = [
     languages: ['Bulgarian'],
     population: 7153784,
     flag: 'https://restcountries.eu/data/bgr.svg',
-    currency: 'Bulgarian lev'
+    currency: 'Bulgarian lev',
   },
   {
     name: 'Burkina Faso',
@@ -309,7 +309,7 @@ const countries = [
     languages: ['French', 'Fula'],
     population: 19034397,
     flag: 'https://restcountries.eu/data/bfa.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Burundi',
@@ -317,7 +317,7 @@ const countries = [
     languages: ['French', 'Kirundi'],
     population: 10114505,
     flag: 'https://restcountries.eu/data/bdi.svg',
-    currency: 'Burundian franc'
+    currency: 'Burundian franc',
   },
   {
     name: 'Cambodia',
@@ -325,7 +325,7 @@ const countries = [
     languages: ['Khmer'],
     population: 15626444,
     flag: 'https://restcountries.eu/data/khm.svg',
-    currency: 'Cambodian riel'
+    currency: 'Cambodian riel',
   },
   {
     name: 'Cameroon',
@@ -333,7 +333,7 @@ const countries = [
     languages: ['English', 'French'],
     population: 22709892,
     flag: 'https://restcountries.eu/data/cmr.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Canada',
@@ -341,7 +341,7 @@ const countries = [
     languages: ['English', 'French'],
     population: 36155487,
     flag: 'https://restcountries.eu/data/can.svg',
-    currency: 'Canadian dollar'
+    currency: 'Canadian dollar',
   },
   {
     name: 'Cabo Verde',
@@ -349,7 +349,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 531239,
     flag: 'https://restcountries.eu/data/cpv.svg',
-    currency: 'Cape Verdean escudo'
+    currency: 'Cape Verdean escudo',
   },
   {
     name: 'Cayman Islands',
@@ -357,7 +357,7 @@ const countries = [
     languages: ['English'],
     population: 58238,
     flag: 'https://restcountries.eu/data/cym.svg',
-    currency: 'Cayman Islands dollar'
+    currency: 'Cayman Islands dollar',
   },
   {
     name: 'Central African Republic',
@@ -365,7 +365,7 @@ const countries = [
     languages: ['French', 'Sango'],
     population: 4998000,
     flag: 'https://restcountries.eu/data/caf.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Chad',
@@ -373,7 +373,7 @@ const countries = [
     languages: ['French', 'Arabic'],
     population: 14497000,
     flag: 'https://restcountries.eu/data/tcd.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Chile',
@@ -381,7 +381,7 @@ const countries = [
     languages: ['Spanish'],
     population: 18191900,
     flag: 'https://restcountries.eu/data/chl.svg',
-    currency: 'Chilean peso'
+    currency: 'Chilean peso',
   },
   {
     name: 'China',
@@ -389,7 +389,7 @@ const countries = [
     languages: ['Chinese'],
     population: 1377422166,
     flag: 'https://restcountries.eu/data/chn.svg',
-    currency: 'Chinese yuan'
+    currency: 'Chinese yuan',
   },
   {
     name: 'Christmas Island',
@@ -397,7 +397,7 @@ const countries = [
     languages: ['English'],
     population: 2072,
     flag: 'https://restcountries.eu/data/cxr.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Cocos (Keeling) Islands',
@@ -405,7 +405,7 @@ const countries = [
     languages: ['English'],
     population: 550,
     flag: 'https://restcountries.eu/data/cck.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Colombia',
@@ -413,7 +413,7 @@ const countries = [
     languages: ['Spanish'],
     population: 48759958,
     flag: 'https://restcountries.eu/data/col.svg',
-    currency: 'Colombian peso'
+    currency: 'Colombian peso',
   },
   {
     name: 'Comoros',
@@ -421,7 +421,7 @@ const countries = [
     languages: ['Arabic', 'French'],
     population: 806153,
     flag: 'https://restcountries.eu/data/com.svg',
-    currency: 'Comorian franc'
+    currency: 'Comorian franc',
   },
   {
     name: 'Congo',
@@ -429,7 +429,7 @@ const countries = [
     languages: ['French', 'Lingala'],
     population: 4741000,
     flag: 'https://restcountries.eu/data/cog.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Congo (Democratic Republic of the)',
@@ -437,7 +437,7 @@ const countries = [
     languages: ['French', 'Lingala', 'Kongo', 'Swahili', 'Luba-Katanga'],
     population: 85026000,
     flag: 'https://restcountries.eu/data/cod.svg',
-    currency: 'Congolese franc'
+    currency: 'Congolese franc',
   },
   {
     name: 'Cook Islands',
@@ -445,7 +445,7 @@ const countries = [
     languages: ['English'],
     population: 18100,
     flag: 'https://restcountries.eu/data/cok.svg',
-    currency: 'New Zealand dollar'
+    currency: 'New Zealand dollar',
   },
   {
     name: 'Costa Rica',
@@ -453,7 +453,7 @@ const countries = [
     languages: ['Spanish'],
     population: 4890379,
     flag: 'https://restcountries.eu/data/cri.svg',
-    currency: 'Costa Rican colón'
+    currency: 'Costa Rican colón',
   },
   {
     name: 'Croatia',
@@ -461,7 +461,7 @@ const countries = [
     languages: ['Croatian'],
     population: 4190669,
     flag: 'https://restcountries.eu/data/hrv.svg',
-    currency: 'Croatian kuna'
+    currency: 'Croatian kuna',
   },
   {
     name: 'Cuba',
@@ -469,7 +469,7 @@ const countries = [
     languages: ['Spanish'],
     population: 11239004,
     flag: 'https://restcountries.eu/data/cub.svg',
-    currency: 'Cuban convertible peso'
+    currency: 'Cuban convertible peso',
   },
   {
     name: 'Curaçao',
@@ -477,7 +477,7 @@ const countries = [
     languages: ['Dutch', '(Eastern) Punjabi', 'English'],
     population: 154843,
     flag: 'https://restcountries.eu/data/cuw.svg',
-    currency: 'Netherlands Antillean guilder'
+    currency: 'Netherlands Antillean guilder',
   },
   {
     name: 'Cyprus',
@@ -485,7 +485,7 @@ const countries = [
     languages: ['Greek (modern)', 'Turkish', 'Armenian'],
     population: 847000,
     flag: 'https://restcountries.eu/data/cyp.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Czech Republic',
@@ -493,7 +493,7 @@ const countries = [
     languages: ['Czech', 'Slovak'],
     population: 10558524,
     flag: 'https://restcountries.eu/data/cze.svg',
-    currency: 'Czech koruna'
+    currency: 'Czech koruna',
   },
   {
     name: 'Denmark',
@@ -501,7 +501,7 @@ const countries = [
     languages: ['Danish'],
     population: 5717014,
     flag: 'https://restcountries.eu/data/dnk.svg',
-    currency: 'Danish krone'
+    currency: 'Danish krone',
   },
   {
     name: 'Djibouti',
@@ -509,7 +509,7 @@ const countries = [
     languages: ['French', 'Arabic'],
     population: 900000,
     flag: 'https://restcountries.eu/data/dji.svg',
-    currency: 'Djiboutian franc'
+    currency: 'Djiboutian franc',
   },
   {
     name: 'Dominica',
@@ -517,7 +517,7 @@ const countries = [
     languages: ['English'],
     population: 71293,
     flag: 'https://restcountries.eu/data/dma.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Dominican Republic',
@@ -525,7 +525,7 @@ const countries = [
     languages: ['Spanish'],
     population: 10075045,
     flag: 'https://restcountries.eu/data/dom.svg',
-    currency: 'Dominican peso'
+    currency: 'Dominican peso',
   },
   {
     name: 'Ecuador',
@@ -533,7 +533,7 @@ const countries = [
     languages: ['Spanish'],
     population: 16545799,
     flag: 'https://restcountries.eu/data/ecu.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Egypt',
@@ -541,7 +541,7 @@ const countries = [
     languages: ['Arabic'],
     population: 91290000,
     flag: 'https://restcountries.eu/data/egy.svg',
-    currency: 'Egyptian pound'
+    currency: 'Egyptian pound',
   },
   {
     name: 'El Salvador',
@@ -549,7 +549,7 @@ const countries = [
     languages: ['Spanish'],
     population: 6520675,
     flag: 'https://restcountries.eu/data/slv.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Equatorial Guinea',
@@ -557,7 +557,7 @@ const countries = [
     languages: ['Spanish', 'French'],
     population: 1222442,
     flag: 'https://restcountries.eu/data/gnq.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Eritrea',
@@ -565,7 +565,7 @@ const countries = [
     languages: ['Tigrinya', 'Arabic', 'English'],
     population: 5352000,
     flag: 'https://restcountries.eu/data/eri.svg',
-    currency: 'Eritrean nakfa'
+    currency: 'Eritrean nakfa',
   },
   {
     name: 'Estonia',
@@ -573,7 +573,7 @@ const countries = [
     languages: ['Estonian'],
     population: 1315944,
     flag: 'https://restcountries.eu/data/est.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Ethiopia',
@@ -581,7 +581,7 @@ const countries = [
     languages: ['Amharic'],
     population: 92206005,
     flag: 'https://restcountries.eu/data/eth.svg',
-    currency: 'Ethiopian birr'
+    currency: 'Ethiopian birr',
   },
   {
     name: 'Falkland Islands (Malvinas)',
@@ -589,7 +589,7 @@ const countries = [
     languages: ['English'],
     population: 2563,
     flag: 'https://restcountries.eu/data/flk.svg',
-    currency: 'Falkland Islands pound'
+    currency: 'Falkland Islands pound',
   },
   {
     name: 'Faroe Islands',
@@ -597,7 +597,7 @@ const countries = [
     languages: ['Faroese'],
     population: 49376,
     flag: 'https://restcountries.eu/data/fro.svg',
-    currency: 'Danish krone'
+    currency: 'Danish krone',
   },
   {
     name: 'Fiji',
@@ -605,7 +605,7 @@ const countries = [
     languages: ['English', 'Fijian', 'Hindi', 'Urdu'],
     population: 867000,
     flag: 'https://restcountries.eu/data/fji.svg',
-    currency: 'Fijian dollar'
+    currency: 'Fijian dollar',
   },
   {
     name: 'Finland',
@@ -613,7 +613,7 @@ const countries = [
     languages: ['Finnish', 'Swedish'],
     population: 5491817,
     flag: 'https://restcountries.eu/data/fin.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'France',
@@ -621,7 +621,7 @@ const countries = [
     languages: ['French'],
     population: 66710000,
     flag: 'https://restcountries.eu/data/fra.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'French Guiana',
@@ -629,7 +629,7 @@ const countries = [
     languages: ['French'],
     population: 254541,
     flag: 'https://restcountries.eu/data/guf.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'French Polynesia',
@@ -637,7 +637,7 @@ const countries = [
     languages: ['French'],
     population: 271800,
     flag: 'https://restcountries.eu/data/pyf.svg',
-    currency: 'CFP franc'
+    currency: 'CFP franc',
   },
   {
     name: 'French Southern Territories',
@@ -645,7 +645,7 @@ const countries = [
     languages: ['French'],
     population: 140,
     flag: 'https://restcountries.eu/data/atf.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Gabon',
@@ -653,7 +653,7 @@ const countries = [
     languages: ['French'],
     population: 1802278,
     flag: 'https://restcountries.eu/data/gab.svg',
-    currency: 'Central African CFA franc'
+    currency: 'Central African CFA franc',
   },
   {
     name: 'Gambia',
@@ -661,7 +661,7 @@ const countries = [
     languages: ['English'],
     population: 1882450,
     flag: 'https://restcountries.eu/data/gmb.svg',
-    currency: 'Gambian dalasi'
+    currency: 'Gambian dalasi',
   },
   {
     name: 'Georgia',
@@ -669,7 +669,7 @@ const countries = [
     languages: ['Georgian'],
     population: 3720400,
     flag: 'https://restcountries.eu/data/geo.svg',
-    currency: 'Georgian Lari'
+    currency: 'Georgian Lari',
   },
   {
     name: 'Germany',
@@ -677,7 +677,7 @@ const countries = [
     languages: ['German'],
     population: 81770900,
     flag: 'https://restcountries.eu/data/deu.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Ghana',
@@ -685,7 +685,7 @@ const countries = [
     languages: ['English'],
     population: 27670174,
     flag: 'https://restcountries.eu/data/gha.svg',
-    currency: 'Ghanaian cedi'
+    currency: 'Ghanaian cedi',
   },
   {
     name: 'Gibraltar',
@@ -693,7 +693,7 @@ const countries = [
     languages: ['English'],
     population: 33140,
     flag: 'https://restcountries.eu/data/gib.svg',
-    currency: 'Gibraltar pound'
+    currency: 'Gibraltar pound',
   },
   {
     name: 'Greece',
@@ -701,7 +701,7 @@ const countries = [
     languages: ['Greek (modern)'],
     population: 10858018,
     flag: 'https://restcountries.eu/data/grc.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Greenland',
@@ -709,7 +709,7 @@ const countries = [
     languages: ['Kalaallisut'],
     population: 55847,
     flag: 'https://restcountries.eu/data/grl.svg',
-    currency: 'Danish krone'
+    currency: 'Danish krone',
   },
   {
     name: 'Grenada',
@@ -717,7 +717,7 @@ const countries = [
     languages: ['English'],
     population: 103328,
     flag: 'https://restcountries.eu/data/grd.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Guadeloupe',
@@ -725,7 +725,7 @@ const countries = [
     languages: ['French'],
     population: 400132,
     flag: 'https://restcountries.eu/data/glp.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Guam',
@@ -733,7 +733,7 @@ const countries = [
     languages: ['English', 'Chamorro', 'Spanish'],
     population: 184200,
     flag: 'https://restcountries.eu/data/gum.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Guatemala',
@@ -741,7 +741,7 @@ const countries = [
     languages: ['Spanish'],
     population: 16176133,
     flag: 'https://restcountries.eu/data/gtm.svg',
-    currency: 'Guatemalan quetzal'
+    currency: 'Guatemalan quetzal',
   },
   {
     name: 'Guernsey',
@@ -749,7 +749,7 @@ const countries = [
     languages: ['English', 'French'],
     population: 62999,
     flag: 'https://restcountries.eu/data/ggy.svg',
-    currency: 'British pound'
+    currency: 'British pound',
   },
   {
     name: 'Guinea',
@@ -757,7 +757,7 @@ const countries = [
     languages: ['French', 'Fula'],
     population: 12947000,
     flag: 'https://restcountries.eu/data/gin.svg',
-    currency: 'Guinean franc'
+    currency: 'Guinean franc',
   },
   {
     name: 'Guinea-Bissau',
@@ -765,7 +765,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 1547777,
     flag: 'https://restcountries.eu/data/gnb.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Guyana',
@@ -773,7 +773,7 @@ const countries = [
     languages: ['English'],
     population: 746900,
     flag: 'https://restcountries.eu/data/guy.svg',
-    currency: 'Guyanese dollar'
+    currency: 'Guyanese dollar',
   },
   {
     name: 'Haiti',
@@ -781,7 +781,7 @@ const countries = [
     languages: ['French', 'Haitian'],
     population: 11078033,
     flag: 'https://restcountries.eu/data/hti.svg',
-    currency: 'Haitian gourde'
+    currency: 'Haitian gourde',
   },
   {
     name: 'Heard Island and McDonald Islands',
@@ -789,7 +789,7 @@ const countries = [
     languages: ['English'],
     population: 0,
     flag: 'https://restcountries.eu/data/hmd.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Holy See',
@@ -797,7 +797,7 @@ const countries = [
     languages: ['Latin', 'Italian', 'French', 'German'],
     population: 451,
     flag: 'https://restcountries.eu/data/vat.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Honduras',
@@ -805,7 +805,7 @@ const countries = [
     languages: ['Spanish'],
     population: 8576532,
     flag: 'https://restcountries.eu/data/hnd.svg',
-    currency: 'Honduran lempira'
+    currency: 'Honduran lempira',
   },
   {
     name: 'Hong Kong',
@@ -813,7 +813,7 @@ const countries = [
     languages: ['English', 'Chinese'],
     population: 7324300,
     flag: 'https://restcountries.eu/data/hkg.svg',
-    currency: 'Hong Kong dollar'
+    currency: 'Hong Kong dollar',
   },
   {
     name: 'Hungary',
@@ -821,7 +821,7 @@ const countries = [
     languages: ['Hungarian'],
     population: 9823000,
     flag: 'https://restcountries.eu/data/hun.svg',
-    currency: 'Hungarian forint'
+    currency: 'Hungarian forint',
   },
   {
     name: 'Iceland',
@@ -829,7 +829,7 @@ const countries = [
     languages: ['Icelandic'],
     population: 334300,
     flag: 'https://restcountries.eu/data/isl.svg',
-    currency: 'Icelandic króna'
+    currency: 'Icelandic króna',
   },
   {
     name: 'India',
@@ -837,7 +837,7 @@ const countries = [
     languages: ['Hindi', 'English'],
     population: 1295210000,
     flag: 'https://restcountries.eu/data/ind.svg',
-    currency: 'Indian rupee'
+    currency: 'Indian rupee',
   },
   {
     name: 'Indonesia',
@@ -845,7 +845,7 @@ const countries = [
     languages: ['Indonesian'],
     population: 258705000,
     flag: 'https://restcountries.eu/data/idn.svg',
-    currency: 'Indonesian rupiah'
+    currency: 'Indonesian rupiah',
   },
   {
     name: "Côte d'Ivoire",
@@ -853,7 +853,7 @@ const countries = [
     languages: ['French'],
     population: 22671331,
     flag: 'https://restcountries.eu/data/civ.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Iran (Islamic Republic of)',
@@ -861,7 +861,7 @@ const countries = [
     languages: ['Persian (Farsi)'],
     population: 79369900,
     flag: 'https://restcountries.eu/data/irn.svg',
-    currency: 'Iranian rial'
+    currency: 'Iranian rial',
   },
   {
     name: 'Iraq',
@@ -869,7 +869,7 @@ const countries = [
     languages: ['Arabic', 'Kurdish'],
     population: 37883543,
     flag: 'https://restcountries.eu/data/irq.svg',
-    currency: 'Iraqi dinar'
+    currency: 'Iraqi dinar',
   },
   {
     name: 'Ireland',
@@ -877,7 +877,7 @@ const countries = [
     languages: ['Irish', 'English'],
     population: 6378000,
     flag: 'https://restcountries.eu/data/irl.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Isle of Man',
@@ -885,7 +885,7 @@ const countries = [
     languages: ['English', 'Manx'],
     population: 84497,
     flag: 'https://restcountries.eu/data/imn.svg',
-    currency: 'British pound'
+    currency: 'British pound',
   },
   {
     name: 'Israel',
@@ -893,7 +893,7 @@ const countries = [
     languages: ['Hebrew (modern)', 'Arabic'],
     population: 8527400,
     flag: 'https://restcountries.eu/data/isr.svg',
-    currency: 'Israeli new shekel'
+    currency: 'Israeli new shekel',
   },
   {
     name: 'Italy',
@@ -901,7 +901,7 @@ const countries = [
     languages: ['Italian'],
     population: 60665551,
     flag: 'https://restcountries.eu/data/ita.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Jamaica',
@@ -909,7 +909,7 @@ const countries = [
     languages: ['English'],
     population: 2723246,
     flag: 'https://restcountries.eu/data/jam.svg',
-    currency: 'Jamaican dollar'
+    currency: 'Jamaican dollar',
   },
   {
     name: 'Japan',
@@ -917,7 +917,7 @@ const countries = [
     languages: ['Japanese'],
     population: 126960000,
     flag: 'https://restcountries.eu/data/jpn.svg',
-    currency: 'Japanese yen'
+    currency: 'Japanese yen',
   },
   {
     name: 'Jersey',
@@ -925,7 +925,7 @@ const countries = [
     languages: ['English', 'French'],
     population: 100800,
     flag: 'https://restcountries.eu/data/jey.svg',
-    currency: 'British pound'
+    currency: 'British pound',
   },
   {
     name: 'Jordan',
@@ -933,7 +933,7 @@ const countries = [
     languages: ['Arabic'],
     population: 9531712,
     flag: 'https://restcountries.eu/data/jor.svg',
-    currency: 'Jordanian dinar'
+    currency: 'Jordanian dinar',
   },
   {
     name: 'Kazakhstan',
@@ -941,7 +941,7 @@ const countries = [
     languages: ['Kazakh', 'Russian'],
     population: 17753200,
     flag: 'https://restcountries.eu/data/kaz.svg',
-    currency: 'Kazakhstani tenge'
+    currency: 'Kazakhstani tenge',
   },
   {
     name: 'Kenya',
@@ -949,7 +949,7 @@ const countries = [
     languages: ['English', 'Swahili'],
     population: 47251000,
     flag: 'https://restcountries.eu/data/ken.svg',
-    currency: 'Kenyan shilling'
+    currency: 'Kenyan shilling',
   },
   {
     name: 'Kiribati',
@@ -957,7 +957,7 @@ const countries = [
     languages: ['English'],
     population: 113400,
     flag: 'https://restcountries.eu/data/kir.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Kuwait',
@@ -965,7 +965,7 @@ const countries = [
     languages: ['Arabic'],
     population: 4183658,
     flag: 'https://restcountries.eu/data/kwt.svg',
-    currency: 'Kuwaiti dinar'
+    currency: 'Kuwaiti dinar',
   },
   {
     name: 'Kyrgyzstan',
@@ -973,7 +973,7 @@ const countries = [
     languages: ['Kyrgyz', 'Russian'],
     population: 6047800,
     flag: 'https://restcountries.eu/data/kgz.svg',
-    currency: 'Kyrgyzstani som'
+    currency: 'Kyrgyzstani som',
   },
   {
     name: "Lao People's Democratic Republic",
@@ -981,7 +981,7 @@ const countries = [
     languages: ['Lao'],
     population: 6492400,
     flag: 'https://restcountries.eu/data/lao.svg',
-    currency: 'Lao kip'
+    currency: 'Lao kip',
   },
   {
     name: 'Latvia',
@@ -989,7 +989,7 @@ const countries = [
     languages: ['Latvian'],
     population: 1961600,
     flag: 'https://restcountries.eu/data/lva.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Lebanon',
@@ -997,7 +997,7 @@ const countries = [
     languages: ['Arabic', 'French'],
     population: 5988000,
     flag: 'https://restcountries.eu/data/lbn.svg',
-    currency: 'Lebanese pound'
+    currency: 'Lebanese pound',
   },
   {
     name: 'Lesotho',
@@ -1005,7 +1005,7 @@ const countries = [
     languages: ['English', 'Southern Sotho'],
     population: 1894194,
     flag: 'https://restcountries.eu/data/lso.svg',
-    currency: 'Lesotho loti'
+    currency: 'Lesotho loti',
   },
   {
     name: 'Liberia',
@@ -1013,7 +1013,7 @@ const countries = [
     languages: ['English'],
     population: 4615000,
     flag: 'https://restcountries.eu/data/lbr.svg',
-    currency: 'Liberian dollar'
+    currency: 'Liberian dollar',
   },
   {
     name: 'Libya',
@@ -1021,7 +1021,7 @@ const countries = [
     languages: ['Arabic'],
     population: 6385000,
     flag: 'https://restcountries.eu/data/lby.svg',
-    currency: 'Libyan dinar'
+    currency: 'Libyan dinar',
   },
   {
     name: 'Liechtenstein',
@@ -1029,7 +1029,7 @@ const countries = [
     languages: ['German'],
     population: 37623,
     flag: 'https://restcountries.eu/data/lie.svg',
-    currency: 'Swiss franc'
+    currency: 'Swiss franc',
   },
   {
     name: 'Lithuania',
@@ -1037,7 +1037,7 @@ const countries = [
     languages: ['Lithuanian'],
     population: 2872294,
     flag: 'https://restcountries.eu/data/ltu.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Luxembourg',
@@ -1045,7 +1045,7 @@ const countries = [
     languages: ['French', 'German', 'Luxembourgish'],
     population: 576200,
     flag: 'https://restcountries.eu/data/lux.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Macao',
@@ -1053,7 +1053,7 @@ const countries = [
     languages: ['Chinese', 'Portuguese'],
     population: 649100,
     flag: 'https://restcountries.eu/data/mac.svg',
-    currency: 'Macanese pataca'
+    currency: 'Macanese pataca',
   },
   {
     name: 'Macedonia (the former Yugoslav Republic of)',
@@ -1061,7 +1061,7 @@ const countries = [
     languages: ['Macedonian'],
     population: 2058539,
     flag: 'https://restcountries.eu/data/mkd.svg',
-    currency: 'Macedonian denar'
+    currency: 'Macedonian denar',
   },
   {
     name: 'Madagascar',
@@ -1069,7 +1069,7 @@ const countries = [
     languages: ['French', 'Malagasy'],
     population: 22434363,
     flag: 'https://restcountries.eu/data/mdg.svg',
-    currency: 'Malagasy ariary'
+    currency: 'Malagasy ariary',
   },
   {
     name: 'Malawi',
@@ -1077,7 +1077,7 @@ const countries = [
     languages: ['English', 'Chichewa'],
     population: 16832910,
     flag: 'https://restcountries.eu/data/mwi.svg',
-    currency: 'Malawian kwacha'
+    currency: 'Malawian kwacha',
   },
   {
     name: 'Malaysia',
@@ -1085,7 +1085,7 @@ const countries = [
     languages: ['Malaysian'],
     population: 31405416,
     flag: 'https://restcountries.eu/data/mys.svg',
-    currency: 'Malaysian ringgit'
+    currency: 'Malaysian ringgit',
   },
   {
     name: 'Maldives',
@@ -1093,7 +1093,7 @@ const countries = [
     languages: ['Divehi'],
     population: 344023,
     flag: 'https://restcountries.eu/data/mdv.svg',
-    currency: 'Maldivian rufiyaa'
+    currency: 'Maldivian rufiyaa',
   },
   {
     name: 'Mali',
@@ -1101,7 +1101,7 @@ const countries = [
     languages: ['French'],
     population: 18135000,
     flag: 'https://restcountries.eu/data/mli.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Malta',
@@ -1109,7 +1109,7 @@ const countries = [
     languages: ['Maltese', 'English'],
     population: 425384,
     flag: 'https://restcountries.eu/data/mlt.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Marshall Islands',
@@ -1117,7 +1117,7 @@ const countries = [
     languages: ['English', 'Marshallese'],
     population: 54880,
     flag: 'https://restcountries.eu/data/mhl.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Martinique',
@@ -1125,7 +1125,7 @@ const countries = [
     languages: ['French'],
     population: 378243,
     flag: 'https://restcountries.eu/data/mtq.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Mauritania',
@@ -1133,7 +1133,7 @@ const countries = [
     languages: ['Arabic'],
     population: 3718678,
     flag: 'https://restcountries.eu/data/mrt.svg',
-    currency: 'Mauritanian ouguiya'
+    currency: 'Mauritanian ouguiya',
   },
   {
     name: 'Mauritius',
@@ -1141,7 +1141,7 @@ const countries = [
     languages: ['English'],
     population: 1262879,
     flag: 'https://restcountries.eu/data/mus.svg',
-    currency: 'Mauritian rupee'
+    currency: 'Mauritian rupee',
   },
   {
     name: 'Mayotte',
@@ -1149,7 +1149,7 @@ const countries = [
     languages: ['French'],
     population: 226915,
     flag: 'https://restcountries.eu/data/myt.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Mexico',
@@ -1157,7 +1157,7 @@ const countries = [
     languages: ['Spanish'],
     population: 122273473,
     flag: 'https://restcountries.eu/data/mex.svg',
-    currency: 'Mexican peso'
+    currency: 'Mexican peso',
   },
   {
     name: 'Micronesia (Federated States of)',
@@ -1165,7 +1165,7 @@ const countries = [
     languages: ['English'],
     population: 102800,
     flag: 'https://restcountries.eu/data/fsm.svg',
-    currency: '[D]'
+    currency: '[D]',
   },
   {
     name: 'Moldova (Republic of)',
@@ -1173,7 +1173,7 @@ const countries = [
     languages: ['Romanian'],
     population: 3553100,
     flag: 'https://restcountries.eu/data/mda.svg',
-    currency: 'Moldovan leu'
+    currency: 'Moldovan leu',
   },
   {
     name: 'Monaco',
@@ -1181,7 +1181,7 @@ const countries = [
     languages: ['French'],
     population: 38400,
     flag: 'https://restcountries.eu/data/mco.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Mongolia',
@@ -1189,7 +1189,7 @@ const countries = [
     languages: ['Mongolian'],
     population: 3093100,
     flag: 'https://restcountries.eu/data/mng.svg',
-    currency: 'Mongolian tögrög'
+    currency: 'Mongolian tögrög',
   },
   {
     name: 'Montenegro',
@@ -1197,7 +1197,7 @@ const countries = [
     languages: ['Serbian', 'Bosnian', 'Albanian', 'Croatian'],
     population: 621810,
     flag: 'https://restcountries.eu/data/mne.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Montserrat',
@@ -1205,7 +1205,7 @@ const countries = [
     languages: ['English'],
     population: 4922,
     flag: 'https://restcountries.eu/data/msr.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Morocco',
@@ -1213,7 +1213,7 @@ const countries = [
     languages: ['Arabic'],
     population: 33337529,
     flag: 'https://restcountries.eu/data/mar.svg',
-    currency: 'Moroccan dirham'
+    currency: 'Moroccan dirham',
   },
   {
     name: 'Mozambique',
@@ -1221,7 +1221,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 26423700,
     flag: 'https://restcountries.eu/data/moz.svg',
-    currency: 'Mozambican metical'
+    currency: 'Mozambican metical',
   },
   {
     name: 'Myanmar',
@@ -1229,7 +1229,7 @@ const countries = [
     languages: ['Burmese'],
     population: 51419420,
     flag: 'https://restcountries.eu/data/mmr.svg',
-    currency: 'Burmese kyat'
+    currency: 'Burmese kyat',
   },
   {
     name: 'Namibia',
@@ -1237,7 +1237,7 @@ const countries = [
     languages: ['English', 'Afrikaans'],
     population: 2324388,
     flag: 'https://restcountries.eu/data/nam.svg',
-    currency: 'Namibian dollar'
+    currency: 'Namibian dollar',
   },
   {
     name: 'Nauru',
@@ -1245,7 +1245,7 @@ const countries = [
     languages: ['English', 'Nauruan'],
     population: 10084,
     flag: 'https://restcountries.eu/data/nru.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Nepal',
@@ -1253,7 +1253,7 @@ const countries = [
     languages: ['Nepali'],
     population: 28431500,
     flag: 'https://restcountries.eu/data/npl.svg',
-    currency: 'Nepalese rupee'
+    currency: 'Nepalese rupee',
   },
   {
     name: 'Netherlands',
@@ -1261,7 +1261,7 @@ const countries = [
     languages: ['Dutch'],
     population: 17019800,
     flag: 'https://restcountries.eu/data/nld.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'New Caledonia',
@@ -1269,7 +1269,7 @@ const countries = [
     languages: ['French'],
     population: 268767,
     flag: 'https://restcountries.eu/data/ncl.svg',
-    currency: 'CFP franc'
+    currency: 'CFP franc',
   },
   {
     name: 'New Zealand',
@@ -1277,7 +1277,7 @@ const countries = [
     languages: ['English', 'Māori'],
     population: 4697854,
     flag: 'https://restcountries.eu/data/nzl.svg',
-    currency: 'New Zealand dollar'
+    currency: 'New Zealand dollar',
   },
   {
     name: 'Nicaragua',
@@ -1285,7 +1285,7 @@ const countries = [
     languages: ['Spanish'],
     population: 6262703,
     flag: 'https://restcountries.eu/data/nic.svg',
-    currency: 'Nicaraguan córdoba'
+    currency: 'Nicaraguan córdoba',
   },
   {
     name: 'Niger',
@@ -1293,7 +1293,7 @@ const countries = [
     languages: ['French'],
     population: 20715000,
     flag: 'https://restcountries.eu/data/ner.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Nigeria',
@@ -1301,7 +1301,7 @@ const countries = [
     languages: ['English'],
     population: 186988000,
     flag: 'https://restcountries.eu/data/nga.svg',
-    currency: 'Nigerian naira'
+    currency: 'Nigerian naira',
   },
   {
     name: 'Niue',
@@ -1309,7 +1309,7 @@ const countries = [
     languages: ['English'],
     population: 1470,
     flag: 'https://restcountries.eu/data/niu.svg',
-    currency: 'New Zealand dollar'
+    currency: 'New Zealand dollar',
   },
   {
     name: 'Norfolk Island',
@@ -1317,7 +1317,7 @@ const countries = [
     languages: ['English'],
     population: 2302,
     flag: 'https://restcountries.eu/data/nfk.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: "Korea (Democratic People's Republic of)",
@@ -1325,7 +1325,7 @@ const countries = [
     languages: ['Korean'],
     population: 25281000,
     flag: 'https://restcountries.eu/data/prk.svg',
-    currency: 'North Korean won'
+    currency: 'North Korean won',
   },
   {
     name: 'Northern Mariana Islands',
@@ -1333,7 +1333,7 @@ const countries = [
     languages: ['English', 'Chamorro'],
     population: 56940,
     flag: 'https://restcountries.eu/data/mnp.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Norway',
@@ -1341,7 +1341,7 @@ const countries = [
     languages: ['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk'],
     population: 5223256,
     flag: 'https://restcountries.eu/data/nor.svg',
-    currency: 'Norwegian krone'
+    currency: 'Norwegian krone',
   },
   {
     name: 'Oman',
@@ -1349,7 +1349,7 @@ const countries = [
     languages: ['Arabic'],
     population: 4420133,
     flag: 'https://restcountries.eu/data/omn.svg',
-    currency: 'Omani rial'
+    currency: 'Omani rial',
   },
   {
     name: 'Pakistan',
@@ -1357,7 +1357,7 @@ const countries = [
     languages: ['English', 'Urdu'],
     population: 194125062,
     flag: 'https://restcountries.eu/data/pak.svg',
-    currency: 'Pakistani rupee'
+    currency: 'Pakistani rupee',
   },
   {
     name: 'Palau',
@@ -1365,7 +1365,7 @@ const countries = [
     languages: ['English'],
     population: 17950,
     flag: 'https://restcountries.eu/data/plw.svg',
-    currency: '[E]'
+    currency: '[E]',
   },
   {
     name: 'Palestine, State of',
@@ -1373,7 +1373,7 @@ const countries = [
     languages: ['Arabic'],
     population: 4682467,
     flag: 'https://restcountries.eu/data/pse.svg',
-    currency: 'Israeli new sheqel'
+    currency: 'Israeli new sheqel',
   },
   {
     name: 'Panama',
@@ -1381,7 +1381,7 @@ const countries = [
     languages: ['Spanish'],
     population: 3814672,
     flag: 'https://restcountries.eu/data/pan.svg',
-    currency: 'Panamanian balboa'
+    currency: 'Panamanian balboa',
   },
   {
     name: 'Papua New Guinea',
@@ -1389,7 +1389,7 @@ const countries = [
     languages: ['English'],
     population: 8083700,
     flag: 'https://restcountries.eu/data/png.svg',
-    currency: 'Papua New Guinean kina'
+    currency: 'Papua New Guinean kina',
   },
   {
     name: 'Paraguay',
@@ -1397,7 +1397,7 @@ const countries = [
     languages: ['Spanish', 'Guaraní'],
     population: 6854536,
     flag: 'https://restcountries.eu/data/pry.svg',
-    currency: 'Paraguayan guaraní'
+    currency: 'Paraguayan guaraní',
   },
   {
     name: 'Peru',
@@ -1405,7 +1405,7 @@ const countries = [
     languages: ['Spanish'],
     population: 31488700,
     flag: 'https://restcountries.eu/data/per.svg',
-    currency: 'Peruvian sol'
+    currency: 'Peruvian sol',
   },
   {
     name: 'Philippines',
@@ -1413,7 +1413,7 @@ const countries = [
     languages: ['English'],
     population: 103279800,
     flag: 'https://restcountries.eu/data/phl.svg',
-    currency: 'Philippine peso'
+    currency: 'Philippine peso',
   },
   {
     name: 'Pitcairn',
@@ -1421,7 +1421,7 @@ const countries = [
     languages: ['English'],
     population: 56,
     flag: 'https://restcountries.eu/data/pcn.svg',
-    currency: 'New Zealand dollar'
+    currency: 'New Zealand dollar',
   },
   {
     name: 'Poland',
@@ -1429,7 +1429,7 @@ const countries = [
     languages: ['Polish'],
     population: 38437239,
     flag: 'https://restcountries.eu/data/pol.svg',
-    currency: 'Polish złoty'
+    currency: 'Polish złoty',
   },
   {
     name: 'Portugal',
@@ -1437,7 +1437,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 10374822,
     flag: 'https://restcountries.eu/data/prt.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Puerto Rico',
@@ -1445,7 +1445,7 @@ const countries = [
     languages: ['Spanish', 'English'],
     population: 3474182,
     flag: 'https://restcountries.eu/data/pri.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Qatar',
@@ -1453,7 +1453,7 @@ const countries = [
     languages: ['Arabic'],
     population: 2587564,
     flag: 'https://restcountries.eu/data/qat.svg',
-    currency: 'Qatari riyal'
+    currency: 'Qatari riyal',
   },
   {
     name: 'Republic of Kosovo',
@@ -1461,7 +1461,7 @@ const countries = [
     languages: ['Albanian', 'Serbian'],
     population: 1733842,
     flag: 'https://restcountries.eu/data/kos.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Réunion',
@@ -1469,7 +1469,7 @@ const countries = [
     languages: ['French'],
     population: 840974,
     flag: 'https://restcountries.eu/data/reu.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Romania',
@@ -1477,7 +1477,7 @@ const countries = [
     languages: ['Romanian'],
     population: 19861408,
     flag: 'https://restcountries.eu/data/rou.svg',
-    currency: 'Romanian leu'
+    currency: 'Romanian leu',
   },
   {
     name: 'Russian Federation',
@@ -1485,7 +1485,7 @@ const countries = [
     languages: ['Russian'],
     population: 146599183,
     flag: 'https://restcountries.eu/data/rus.svg',
-    currency: 'Russian ruble'
+    currency: 'Russian ruble',
   },
   {
     name: 'Rwanda',
@@ -1493,7 +1493,7 @@ const countries = [
     languages: ['Kinyarwanda', 'English', 'French'],
     population: 11553188,
     flag: 'https://restcountries.eu/data/rwa.svg',
-    currency: 'Rwandan franc'
+    currency: 'Rwandan franc',
   },
   {
     name: 'Saint Barthélemy',
@@ -1501,7 +1501,7 @@ const countries = [
     languages: ['French'],
     population: 9417,
     flag: 'https://restcountries.eu/data/blm.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Saint Helena, Ascension and Tristan da Cunha',
@@ -1509,7 +1509,7 @@ const countries = [
     languages: ['English'],
     population: 4255,
     flag: 'https://restcountries.eu/data/shn.svg',
-    currency: 'Saint Helena pound'
+    currency: 'Saint Helena pound',
   },
   {
     name: 'Saint Kitts and Nevis',
@@ -1517,7 +1517,7 @@ const countries = [
     languages: ['English'],
     population: 46204,
     flag: 'https://restcountries.eu/data/kna.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Saint Lucia',
@@ -1525,7 +1525,7 @@ const countries = [
     languages: ['English'],
     population: 186000,
     flag: 'https://restcountries.eu/data/lca.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Saint Martin (French part)',
@@ -1533,7 +1533,7 @@ const countries = [
     languages: ['English', 'French', 'Dutch'],
     population: 36979,
     flag: 'https://restcountries.eu/data/maf.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Saint Pierre and Miquelon',
@@ -1541,7 +1541,7 @@ const countries = [
     languages: ['French'],
     population: 6069,
     flag: 'https://restcountries.eu/data/spm.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Saint Vincent and the Grenadines',
@@ -1549,7 +1549,7 @@ const countries = [
     languages: ['English'],
     population: 109991,
     flag: 'https://restcountries.eu/data/vct.svg',
-    currency: 'East Caribbean dollar'
+    currency: 'East Caribbean dollar',
   },
   {
     name: 'Samoa',
@@ -1557,7 +1557,7 @@ const countries = [
     languages: ['Samoan', 'English'],
     population: 194899,
     flag: 'https://restcountries.eu/data/wsm.svg',
-    currency: 'Samoan tālā'
+    currency: 'Samoan tālā',
   },
   {
     name: 'San Marino',
@@ -1565,7 +1565,7 @@ const countries = [
     languages: ['Italian'],
     population: 33005,
     flag: 'https://restcountries.eu/data/smr.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Sao Tome and Principe',
@@ -1573,7 +1573,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 187356,
     flag: 'https://restcountries.eu/data/stp.svg',
-    currency: 'São Tomé and Príncipe dobra'
+    currency: 'São Tomé and Príncipe dobra',
   },
   {
     name: 'Saudi Arabia',
@@ -1581,7 +1581,7 @@ const countries = [
     languages: ['Arabic'],
     population: 32248200,
     flag: 'https://restcountries.eu/data/sau.svg',
-    currency: 'Saudi riyal'
+    currency: 'Saudi riyal',
   },
   {
     name: 'Senegal',
@@ -1589,7 +1589,7 @@ const countries = [
     languages: ['French'],
     population: 14799859,
     flag: 'https://restcountries.eu/data/sen.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Serbia',
@@ -1597,7 +1597,7 @@ const countries = [
     languages: ['Serbian'],
     population: 7076372,
     flag: 'https://restcountries.eu/data/srb.svg',
-    currency: 'Serbian dinar'
+    currency: 'Serbian dinar',
   },
   {
     name: 'Seychelles',
@@ -1605,7 +1605,7 @@ const countries = [
     languages: ['French', 'English'],
     population: 91400,
     flag: 'https://restcountries.eu/data/syc.svg',
-    currency: 'Seychellois rupee'
+    currency: 'Seychellois rupee',
   },
   {
     name: 'Sierra Leone',
@@ -1613,7 +1613,7 @@ const countries = [
     languages: ['English'],
     population: 7075641,
     flag: 'https://restcountries.eu/data/sle.svg',
-    currency: 'Sierra Leonean leone'
+    currency: 'Sierra Leonean leone',
   },
   {
     name: 'Singapore',
@@ -1621,7 +1621,7 @@ const countries = [
     languages: ['English', 'Malay', 'Tamil', 'Chinese'],
     population: 5535000,
     flag: 'https://restcountries.eu/data/sgp.svg',
-    currency: 'Brunei dollar'
+    currency: 'Brunei dollar',
   },
   {
     name: 'Sint Maarten (Dutch part)',
@@ -1629,7 +1629,7 @@ const countries = [
     languages: ['Dutch', 'English'],
     population: 38247,
     flag: 'https://restcountries.eu/data/sxm.svg',
-    currency: 'Netherlands Antillean guilder'
+    currency: 'Netherlands Antillean guilder',
   },
   {
     name: 'Slovakia',
@@ -1637,7 +1637,7 @@ const countries = [
     languages: ['Slovak'],
     population: 5426252,
     flag: 'https://restcountries.eu/data/svk.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Slovenia',
@@ -1645,7 +1645,7 @@ const countries = [
     languages: ['Slovene'],
     population: 2064188,
     flag: 'https://restcountries.eu/data/svn.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Solomon Islands',
@@ -1653,7 +1653,7 @@ const countries = [
     languages: ['English'],
     population: 642000,
     flag: 'https://restcountries.eu/data/slb.svg',
-    currency: 'Solomon Islands dollar'
+    currency: 'Solomon Islands dollar',
   },
   {
     name: 'Somalia',
@@ -1661,7 +1661,7 @@ const countries = [
     languages: ['Somali', 'Arabic'],
     population: 11079000,
     flag: 'https://restcountries.eu/data/som.svg',
-    currency: 'Somali shilling'
+    currency: 'Somali shilling',
   },
   {
     name: 'South Africa',
@@ -1676,11 +1676,11 @@ const countries = [
       'Tsonga',
       'Venda',
       'Xhosa',
-      'Zulu'
+      'Zulu',
     ],
     population: 55653654,
     flag: 'https://restcountries.eu/data/zaf.svg',
-    currency: 'South African rand'
+    currency: 'South African rand',
   },
   {
     name: 'South Georgia and the South Sandwich Islands',
@@ -1688,7 +1688,7 @@ const countries = [
     languages: ['English'],
     population: 30,
     flag: 'https://restcountries.eu/data/sgs.svg',
-    currency: 'British pound'
+    currency: 'British pound',
   },
   {
     name: 'Korea (Republic of)',
@@ -1696,7 +1696,7 @@ const countries = [
     languages: ['Korean'],
     population: 50801405,
     flag: 'https://restcountries.eu/data/kor.svg',
-    currency: 'South Korean won'
+    currency: 'South Korean won',
   },
   {
     name: 'South Sudan',
@@ -1704,7 +1704,7 @@ const countries = [
     languages: ['English'],
     population: 12131000,
     flag: 'https://restcountries.eu/data/ssd.svg',
-    currency: 'South Sudanese pound'
+    currency: 'South Sudanese pound',
   },
   {
     name: 'Spain',
@@ -1712,7 +1712,7 @@ const countries = [
     languages: ['Spanish'],
     population: 46438422,
     flag: 'https://restcountries.eu/data/esp.svg',
-    currency: 'Euro'
+    currency: 'Euro',
   },
   {
     name: 'Sri Lanka',
@@ -1720,7 +1720,7 @@ const countries = [
     languages: ['Sinhalese', 'Tamil'],
     population: 20966000,
     flag: 'https://restcountries.eu/data/lka.svg',
-    currency: 'Sri Lankan rupee'
+    currency: 'Sri Lankan rupee',
   },
   {
     name: 'Sudan',
@@ -1728,7 +1728,7 @@ const countries = [
     languages: ['Arabic', 'English'],
     population: 39598700,
     flag: 'https://restcountries.eu/data/sdn.svg',
-    currency: 'Sudanese pound'
+    currency: 'Sudanese pound',
   },
   {
     name: 'Suriname',
@@ -1736,7 +1736,7 @@ const countries = [
     languages: ['Dutch'],
     population: 541638,
     flag: 'https://restcountries.eu/data/sur.svg',
-    currency: 'Surinamese dollar'
+    currency: 'Surinamese dollar',
   },
   {
     name: 'Svalbard and Jan Mayen',
@@ -1744,7 +1744,7 @@ const countries = [
     languages: ['Norwegian'],
     population: 2562,
     flag: 'https://restcountries.eu/data/sjm.svg',
-    currency: 'Norwegian krone'
+    currency: 'Norwegian krone',
   },
   {
     name: 'Swaziland',
@@ -1752,7 +1752,7 @@ const countries = [
     languages: ['English', 'Swati'],
     population: 1132657,
     flag: 'https://restcountries.eu/data/swz.svg',
-    currency: 'Swazi lilangeni'
+    currency: 'Swazi lilangeni',
   },
   {
     name: 'Sweden',
@@ -1760,7 +1760,7 @@ const countries = [
     languages: ['Swedish'],
     population: 9894888,
     flag: 'https://restcountries.eu/data/swe.svg',
-    currency: 'Swedish krona'
+    currency: 'Swedish krona',
   },
   {
     name: 'Switzerland',
@@ -1768,7 +1768,7 @@ const countries = [
     languages: ['German', 'French', 'Italian'],
     population: 8341600,
     flag: 'https://restcountries.eu/data/che.svg',
-    currency: 'Swiss franc'
+    currency: 'Swiss franc',
   },
   {
     name: 'Syrian Arab Republic',
@@ -1776,7 +1776,7 @@ const countries = [
     languages: ['Arabic'],
     population: 18564000,
     flag: 'https://restcountries.eu/data/syr.svg',
-    currency: 'Syrian pound'
+    currency: 'Syrian pound',
   },
   {
     name: 'Taiwan',
@@ -1784,7 +1784,7 @@ const countries = [
     languages: ['Chinese'],
     population: 23503349,
     flag: 'https://restcountries.eu/data/twn.svg',
-    currency: 'New Taiwan dollar'
+    currency: 'New Taiwan dollar',
   },
   {
     name: 'Tajikistan',
@@ -1792,7 +1792,7 @@ const countries = [
     languages: ['Tajik', 'Russian'],
     population: 8593600,
     flag: 'https://restcountries.eu/data/tjk.svg',
-    currency: 'Tajikistani somoni'
+    currency: 'Tajikistani somoni',
   },
   {
     name: 'Tanzania, United Republic of',
@@ -1800,7 +1800,7 @@ const countries = [
     languages: ['Swahili', 'English'],
     population: 55155000,
     flag: 'https://restcountries.eu/data/tza.svg',
-    currency: 'Tanzanian shilling'
+    currency: 'Tanzanian shilling',
   },
   {
     name: 'Thailand',
@@ -1808,7 +1808,7 @@ const countries = [
     languages: ['Thai'],
     population: 65327652,
     flag: 'https://restcountries.eu/data/tha.svg',
-    currency: 'Thai baht'
+    currency: 'Thai baht',
   },
   {
     name: 'Timor-Leste',
@@ -1816,7 +1816,7 @@ const countries = [
     languages: ['Portuguese'],
     population: 1167242,
     flag: 'https://restcountries.eu/data/tls.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Togo',
@@ -1824,7 +1824,7 @@ const countries = [
     languages: ['French'],
     population: 7143000,
     flag: 'https://restcountries.eu/data/tgo.svg',
-    currency: 'West African CFA franc'
+    currency: 'West African CFA franc',
   },
   {
     name: 'Tokelau',
@@ -1832,7 +1832,7 @@ const countries = [
     languages: ['English'],
     population: 1411,
     flag: 'https://restcountries.eu/data/tkl.svg',
-    currency: 'New Zealand dollar'
+    currency: 'New Zealand dollar',
   },
   {
     name: 'Tonga',
@@ -1840,7 +1840,7 @@ const countries = [
     languages: ['English', 'Tonga (Tonga Islands)'],
     population: 103252,
     flag: 'https://restcountries.eu/data/ton.svg',
-    currency: 'Tongan paʻanga'
+    currency: 'Tongan paʻanga',
   },
   {
     name: 'Trinidad and Tobago',
@@ -1848,7 +1848,7 @@ const countries = [
     languages: ['English'],
     population: 1349667,
     flag: 'https://restcountries.eu/data/tto.svg',
-    currency: 'Trinidad and Tobago dollar'
+    currency: 'Trinidad and Tobago dollar',
   },
   {
     name: 'Tunisia',
@@ -1856,7 +1856,7 @@ const countries = [
     languages: ['Arabic'],
     population: 11154400,
     flag: 'https://restcountries.eu/data/tun.svg',
-    currency: 'Tunisian dinar'
+    currency: 'Tunisian dinar',
   },
   {
     name: 'Turkey',
@@ -1864,7 +1864,7 @@ const countries = [
     languages: ['Turkish'],
     population: 78741053,
     flag: 'https://restcountries.eu/data/tur.svg',
-    currency: 'Turkish lira'
+    currency: 'Turkish lira',
   },
   {
     name: 'Turkmenistan',
@@ -1872,7 +1872,7 @@ const countries = [
     languages: ['Turkmen', 'Russian'],
     population: 4751120,
     flag: 'https://restcountries.eu/data/tkm.svg',
-    currency: 'Turkmenistan manat'
+    currency: 'Turkmenistan manat',
   },
   {
     name: 'Turks and Caicos Islands',
@@ -1880,7 +1880,7 @@ const countries = [
     languages: ['English'],
     population: 31458,
     flag: 'https://restcountries.eu/data/tca.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Tuvalu',
@@ -1888,7 +1888,7 @@ const countries = [
     languages: ['English'],
     population: 10640,
     flag: 'https://restcountries.eu/data/tuv.svg',
-    currency: 'Australian dollar'
+    currency: 'Australian dollar',
   },
   {
     name: 'Uganda',
@@ -1896,7 +1896,7 @@ const countries = [
     languages: ['English', 'Swahili'],
     population: 33860700,
     flag: 'https://restcountries.eu/data/uga.svg',
-    currency: 'Ugandan shilling'
+    currency: 'Ugandan shilling',
   },
   {
     name: 'Ukraine',
@@ -1904,7 +1904,7 @@ const countries = [
     languages: ['Ukrainian'],
     population: 42692393,
     flag: 'https://restcountries.eu/data/ukr.svg',
-    currency: 'Ukrainian hryvnia'
+    currency: 'Ukrainian hryvnia',
   },
   {
     name: 'United Arab Emirates',
@@ -1912,7 +1912,7 @@ const countries = [
     languages: ['Arabic'],
     population: 9856000,
     flag: 'https://restcountries.eu/data/are.svg',
-    currency: 'United Arab Emirates dirham'
+    currency: 'United Arab Emirates dirham',
   },
   {
     name: 'United Kingdom of Great Britain and Northern Ireland',
@@ -1920,7 +1920,7 @@ const countries = [
     languages: ['English'],
     population: 65110000,
     flag: 'https://restcountries.eu/data/gbr.svg',
-    currency: 'British pound'
+    currency: 'British pound',
   },
   {
     name: 'United States of America',
@@ -1928,7 +1928,7 @@ const countries = [
     languages: ['English'],
     population: 323947000,
     flag: 'https://restcountries.eu/data/usa.svg',
-    currency: 'United States dollar'
+    currency: 'United States dollar',
   },
   {
     name: 'Uruguay',
@@ -1936,7 +1936,7 @@ const countries = [
     languages: ['Spanish'],
     population: 3480222,
     flag: 'https://restcountries.eu/data/ury.svg',
-    currency: 'Uruguayan peso'
+    currency: 'Uruguayan peso',
   },
   {
     name: 'Uzbekistan',
@@ -1944,7 +1944,7 @@ const countries = [
     languages: ['Uzbek', 'Russian'],
     population: 31576400,
     flag: 'https://restcountries.eu/data/uzb.svg',
-    currency: "Uzbekistani so'm"
+    currency: "Uzbekistani so'm",
   },
   {
     name: 'Vanuatu',
@@ -1952,7 +1952,7 @@ const countries = [
     languages: ['Bislama', 'English', 'French'],
     population: 277500,
     flag: 'https://restcountries.eu/data/vut.svg',
-    currency: 'Vanuatu vatu'
+    currency: 'Vanuatu vatu',
   },
   {
     name: 'Venezuela (Bolivarian Republic of)',
@@ -1960,7 +1960,7 @@ const countries = [
     languages: ['Spanish'],
     population: 31028700,
     flag: 'https://restcountries.eu/data/ven.svg',
-    currency: 'Venezuelan bolívar'
+    currency: 'Venezuelan bolívar',
   },
   {
     name: 'Viet Nam',
@@ -1968,7 +1968,7 @@ const countries = [
     languages: ['Vietnamese'],
     population: 92700000,
     flag: 'https://restcountries.eu/data/vnm.svg',
-    currency: 'Vietnamese đồng'
+    currency: 'Vietnamese đồng',
   },
   {
     name: 'Wallis and Futuna',
@@ -1976,7 +1976,7 @@ const countries = [
     languages: ['French'],
     population: 11750,
     flag: 'https://restcountries.eu/data/wlf.svg',
-    currency: 'CFP franc'
+    currency: 'CFP franc',
   },
   {
     name: 'Western Sahara',
@@ -1984,7 +1984,7 @@ const countries = [
     languages: ['Spanish'],
     population: 510713,
     flag: 'https://restcountries.eu/data/esh.svg',
-    currency: 'Moroccan dirham'
+    currency: 'Moroccan dirham',
   },
   {
     name: 'Yemen',
@@ -1992,7 +1992,7 @@ const countries = [
     languages: ['Arabic'],
     population: 27478000,
     flag: 'https://restcountries.eu/data/yem.svg',
-    currency: 'Yemeni rial'
+    currency: 'Yemeni rial',
   },
   {
     name: 'Zambia',
@@ -2000,7 +2000,7 @@ const countries = [
     languages: ['English'],
     population: 15933883,
     flag: 'https://restcountries.eu/data/zmb.svg',
-    currency: 'Zambian kwacha'
+    currency: 'Zambian kwacha',
   },
   {
     name: 'Zimbabwe',
@@ -2008,16 +2008,16 @@ const countries = [
     languages: ['English', 'Shona', 'Northern Ndebele'],
     population: 14240168,
     flag: 'https://restcountries.eu/data/zwe.svg',
-    currency: 'Botswana pula'
-  }
-]
+    currency: 'Botswana pula',
+  },
+];
 
 // EXERCISE LEVEL 3
 // 2
-const mostSpokenLanguages = (arr) => {
+const mostSpokenLanguages = arr => {
   const countryLang = [];
   for (const { languages } of countries) {
-    countryLang.push((languages.length, ));
+    countryLang.push(languages.length);
   }
 };
 console.log(mostSpokenLanguages(countries));
