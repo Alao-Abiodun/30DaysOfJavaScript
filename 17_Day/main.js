@@ -6,11 +6,11 @@ localStorage.setItem('lastname', 'Alao');
 localStorage.setItem('age', '23');
 localStorage.setItem('country', 'Nigerian');
 localStorage.setItem('city', 'Lagos');
-localStorage.getItem('firstname');
-localStorage.getItem('lastname');
-localStorage.getItem('age');
-localStorage.getItem('country');
-localStorage.getItem('city');
+// localStorage.getItem('firstname');
+// localStorage.getItem('lastname');
+// localStorage.getItem('age');
+// localStorage.getItem('country');
+// localStorage.getItem('city');
 
 
 // EXERCISE LEVEL 2
